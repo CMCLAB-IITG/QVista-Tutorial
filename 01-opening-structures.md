@@ -5,7 +5,7 @@ is the first step of every workflow.
 
 `File > Open Project`
 
-QVista reads POSCAR, CONTCAR, CIF, XYZ and `.vasp` files. Choosing one
+QVista reads all POSCAR, CONTCAR, CIF, XYZ and `.vasp` files. Choosing one
 loads it into the viewport and makes it the current project.
 
 ![A structure loaded into QVista](images/02-structure-open.png)
