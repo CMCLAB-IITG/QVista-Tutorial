@@ -12,20 +12,28 @@ application at each step.
 
 ## Before you start
 
-QVista runs from the source folder:
+Install QVista into a virtual environment of its own:
 
 ```bash
 git clone https://github.com/CMCLAB-IITG/QVista.git
 cd QVista
 
 python -m venv .venv
-.venv\Scripts\pip install -r requirements.txt
-.venv\Scripts\pip install chgnet          # optional, for the CHGNet menus
+.venv\Scripts\activate                    # Linux: source .venv/bin/activate
 
-.venv\Scripts\python -m qvista
+pip install -e .
+pip install -e ".[ml]"                    # optional, for the CHGNet menus
+
+qvista
 ```
 
 The last line is how you launch it, every time.
+
+Python 3.11 or newer is required, and on Linux there are system
+libraries to install first. The
+[Installation section of the QVista README](https://github.com/CMCLAB-IITG/QVista#installation)
+has the full steps for both platforms, and a troubleshooting list keyed
+by the error you actually see.
 
 ## Follow the workflow
 
