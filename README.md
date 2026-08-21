@@ -46,7 +46,7 @@ read them in sequence — each one assumes the previous step.
 | **10** | [NEB](10-neb.md) | migration barriers |
 | **11** | [Molecular dynamics](11-molecular-dynamics.md) | AIMD, MSD, RDF, Van Hove, diffusion |
 | **12** | [Mechanical properties](12-mechanical.md) | elastic constants and moduli |
-| **13** | [Conductivity](13-conductivity.md) | ionic and electronic |
+| **13** | [Ionic conductivity](13-conductivity.md) | Nernst–Einstein, and the correlation caveat |
 | **14** | [Plots and export](14-plots-and-export.md) | figures fit to publish |
 | **15** | [Editing structures](15-editing-structures.md) | vacancies, slabs, format conversion |
 
