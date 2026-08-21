@@ -1,5 +1,7 @@
 # QVista Tutorial
 
+![QVista before anything is loaded](images/01-empty-window.png)
+
 A complete walkthrough of [QVista](https://github.com/CMCLAB-IITG/QVista),
 from opening a structure to every analysis it performs.
 
@@ -24,8 +26,6 @@ python -m venv .venv
 ```
 
 The last line is how you launch it, every time.
-
-![QVista before anything is loaded](images/01-empty-window.png)
 
 ## Follow the workflow
 
