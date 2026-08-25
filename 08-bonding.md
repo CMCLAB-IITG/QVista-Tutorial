@@ -1,5 +1,10 @@
 # 8. Bonding and charge
 
+> **This page has moved.** The tutorial now lives inside the QVista
+> repository, and this copy is archived and no longer updated. The
+> current version of this page is
+> [here](https://github.com/CMCLAB-IITG/QVista/blob/main/docs/tutorial/08-bonding.md).
+
 Where the electrons are, and what is bonded to what.
 
 ---

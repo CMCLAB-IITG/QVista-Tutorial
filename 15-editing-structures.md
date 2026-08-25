@@ -1,5 +1,10 @@
 # 15. Editing structures
 
+> **This page has moved.** The tutorial now lives inside the QVista
+> repository, and this copy is archived and no longer updated. The
+> current version of this page is
+> [here](https://github.com/CMCLAB-IITG/QVista/blob/main/docs/tutorial/15-editing-structures.md).
+
 `Edit Structure`
 
 Changing the structure before you compute with it. Three tools, each

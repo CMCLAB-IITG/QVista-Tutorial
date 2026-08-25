@@ -1,5 +1,9 @@
 # Regenerating the screenshots
 
+> **These tools have moved.** They now live inside the QVista repository,
+> at [`docs/tutorial/tools/`](https://github.com/CMCLAB-IITG/QVista/tree/main/docs/tutorial/tools),
+> where they run from the repository root. This copy is archived.
+
 Every image in `../images/` that shows the interface is produced by one
 of these two scripts. They live here so the figures can be regenerated
 whenever the interface changes, rather than drifting away from it.

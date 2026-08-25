@@ -1,5 +1,10 @@
 # 7. Electronic structure
 
+> **This page has moved.** The tutorial now lives inside the QVista
+> repository, and this copy is archived and no longer updated. The
+> current version of this page is
+> [here](https://github.com/CMCLAB-IITG/QVista/blob/main/docs/tutorial/07-electronic-structure.md).
+
 `Analysis > Electrochemical Tools`
 
 All of these read a **finished** VASP calculation. Point each dialog at

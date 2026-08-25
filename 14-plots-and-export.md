@@ -1,5 +1,10 @@
 # 14. Plots and export
 
+> **This page has moved.** The tutorial now lives inside the QVista
+> repository, and this copy is archived and no longer updated. The
+> current version of this page is
+> [here](https://github.com/CMCLAB-IITG/QVista/blob/main/docs/tutorial/14-plots-and-export.md).
+
 Every figure QVista draws goes through the same styling layer, so what
 you learn here applies to all of them.
 

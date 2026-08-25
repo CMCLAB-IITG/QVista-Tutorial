@@ -1,5 +1,10 @@
 # 12. Mechanical properties
 
+> **This page has moved.** The tutorial now lives inside the QVista
+> repository, and this copy is archived and no longer updated. The
+> current version of this page is
+> [here](https://github.com/CMCLAB-IITG/QVista/blob/main/docs/tutorial/12-mechanical.md).
+
 `Analysis > Mechanical Properties`
 
 Elastic constants, and the moduli that follow from them.

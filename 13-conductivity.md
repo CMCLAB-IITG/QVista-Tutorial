@@ -1,5 +1,10 @@
 # 13. Ionic conductivity
 
+> **This page has moved.** The tutorial now lives inside the QVista
+> repository, and this copy is archived and no longer updated. The
+> current version of this page is
+> [here](https://github.com/CMCLAB-IITG/QVista/blob/main/docs/tutorial/13-conductivity.md).
+
 `Analysis > MD > CHGNet | VASP > Analysis > Diffusion Kinetics (D0, Ea)`
 
 Ionic conductivity is not a menu of its own. It comes out of the

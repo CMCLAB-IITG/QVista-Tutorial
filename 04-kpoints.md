@@ -1,5 +1,10 @@
 # 4. KPOINTS
 
+> **This page has moved.** The tutorial now lives inside the QVista
+> repository, and this copy is archived and no longer updated. The
+> current version of this page is
+> [here](https://github.com/CMCLAB-IITG/QVista/blob/main/docs/tutorial/04-kpoints.md).
+
 Four menu entries, from two independent choices: **Gamma-centred** or
 **Monkhorst-Pack**, each either sized from a spacing or typed in.
 

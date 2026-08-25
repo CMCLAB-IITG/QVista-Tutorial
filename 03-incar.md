@@ -1,5 +1,10 @@
 # 3. INCAR
 
+> **This page has moved.** The tutorial now lives inside the QVista
+> repository, and this copy is archived and no longer updated. The
+> current version of this page is
+> [here](https://github.com/CMCLAB-IITG/QVista/blob/main/docs/tutorial/03-incar.md).
+
 `VASP Input > INCAR`
 
 The INCAR tells VASP *what calculation to do*. QVista organises it by

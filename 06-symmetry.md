@@ -1,5 +1,10 @@
 # 6. Symmetry and k-paths
 
+> **This page has moved.** The tutorial now lives inside the QVista
+> repository, and this copy is archived and no longer updated. The
+> current version of this page is
+> [here](https://github.com/CMCLAB-IITG/QVista/blob/main/docs/tutorial/06-symmetry.md).
+
 Two entries under `Analysis > Crystallography`, and they belong
 together: the space group determines which k-path is meaningful.
 

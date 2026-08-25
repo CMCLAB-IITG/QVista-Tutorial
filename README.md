@@ -1,44 +1,32 @@
-# QVista Tutorial
+# QVista Tutorial — moved
 
-![QVista before anything is loaded](images/01-empty-window.png)
+**This tutorial now lives inside the QVista repository, at
+[`docs/tutorial/`](https://github.com/CMCLAB-IITG/QVista/tree/main/docs/tutorial).**
 
-A complete walkthrough of [QVista](https://github.com/CMCLAB-IITG/QVista),
-from opening a structure to every analysis it performs.
+Read it there. This repository is archived: it is kept read-only so that
+existing links do not break, and it is no longer updated.
 
-Each page covers one part of the program and gives you three things:
-the **chemistry** the tool is computing, the **procedure** as pseudocode
-so you can see what actually happens, and **screenshots** of the working
-application at each step.
+## Why it moved
 
-## Before you start
+Documentation that sits in a repository of its own cannot see the program
+it documents, and it drifts. This tutorial did. Its installation steps were
+still describing `requirements.txt` and `python -m qvista` after QVista had
+moved to `pip install -e .` and a `qvista` command on PATH — nobody's
+mistake, just what two repositories do to one set of instructions.
 
-Install QVista into a virtual environment of its own:
+Living beside the code, the pages link to QVista's own README for
+installation instead of restating it, and the screenshot tools in
+`docs/tutorial/tools/` run from the repository root against the demo
+structure that ships there.
 
-```bash
-git clone https://github.com/CMCLAB-IITG/QVista.git
-cd QVista
+## Where each page went
 
-python -m venv .venv
-.venv\Scripts\activate                    # Linux: source .venv/bin/activate
+Every page kept its filename. `08-bonding.md` here is
+[`docs/tutorial/08-bonding.md`](https://github.com/CMCLAB-IITG/QVista/blob/main/docs/tutorial/08-bonding.md)
+there, and so on for all fifteen.
 
-pip install -e .
-pip install -e ".[ml]"                    # optional, for the CHGNet menus
-
-qvista
-```
-
-The last line is how you launch it, every time.
-
-Python 3.11 or newer is required, and on Linux there are system
-libraries to install first. The
-[Installation section of the QVista README](https://github.com/CMCLAB-IITG/QVista#installation)
-has the full steps for both platforms, and a troubleshooting list keyed
-by the error you actually see.
-
-## Follow the workflow
-
-The pages are in the order you would actually use them. If you are new,
-read them in sequence — each one assumes the previous step.
+The pages below are the frozen copies. Each carries a link to its current
+version at the top.
 
 | | | |
 |---|---|---|
@@ -58,31 +46,5 @@ read them in sequence — each one assumes the previous step.
 | **14** | [Plots and export](14-plots-and-export.md) | figures fit to publish |
 | **15** | [Editing structures](15-editing-structures.md) | vacancies, slabs, format conversion |
 
-## The two routes
-
-Almost every analysis in QVista comes in two forms, and the menus are
-built around the difference.
-
-**VASP** — the calculation already ran somewhere else, and QVista reads
-the output folder. Nothing here launches VASP.
-
-**CHGNet** — QVista computes it now, on your laptop, with a
-machine-learning interatomic potential. Minutes instead of days.
-
-Both produce the same tables and the same plots, so you can move between
-them freely. What differs is where the forces came from, and that
-difference is real: CHGNet is a neural network trained on DFT
-relaxations, not DFT itself. It is excellent for screening, for checking
-a structure is sane before you spend cluster time on it, and for
-qualitative trends. It is not a substitute for the first-principles
-number you put in a paper.
-
-QVista stamps the method on every exported figure for exactly this
-reason.
-
-## About the figures in these pages
-
-Every screenshot is of the running application, captured programmatically
-so it cannot drift from the interface. Every plot is from a real
-calculation — the DOS is a real `DOSCAR`, the molecular dynamics is a
-real 14 ps VASP AIMD run at 1600 K. Nothing is drawn or mocked up.
+QVista itself is at
+[github.com/CMCLAB-IITG/QVista](https://github.com/CMCLAB-IITG/QVista).
